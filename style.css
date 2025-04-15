@@ -137,6 +137,12 @@ a {
     }
 }
 
+.equal-height {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 /* Image hove effect */
 .card-container {
     position: relative;
