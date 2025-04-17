@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +16,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
 
     <button class="toggle-btn">☰</button>
@@ -149,6 +151,22 @@
         </div>
         <!-- Popup End-->
 
+        <!-- Info Modal -->
+        <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title fw-bold" id="infoModalTitle">Title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-start">
+                        <p><strong id="infoModalSubtitle">Subtitle here</strong></p>
+                        <!-- <ul class="ps-3" id="infoModalPoints"></ul> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Paid Webinar -->
         <div class="container mt-4">
             <h3 class="fw-bold my-5">Paid Webinar</h3>
@@ -169,7 +187,13 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">The Impact of Lifestyle on Heart Health</div>
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Cardiology" data-subtitle="The Impact of Lifestyle on Heart Health"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Cardiology
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -188,7 +212,13 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">Lifestyle Changes to Reduce Stroke Risk</div>
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Stroke Awareness" data-subtitle=" Lifestyle Changes to Reduce Stroke Risk"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Stroke Awareness
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -207,10 +237,15 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">Women's Hormonal Health: Understanding and Managing Imbalances</div>
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Women's Health" data-subtitle="Women's Hormonal Health:Understanding and Managing Imbalances"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Women's Health
+                            </a>
+                        </div>
                     </div>
                 </div>
-
 
                 <!-- Card 4 -->
                 <div class="col-lg-3 col-md-4 col-sm-6">
@@ -227,7 +262,13 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">Mind Diet - Boosting Mood - Nutritional Psychiatry</div>
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Health and Lifestyle" data-subtitle="Mind Diet - Boosting Mood - Nutritional Psychiatry"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Health and Lifestyle
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -246,7 +287,13 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">Women's Hormonal Health: Balance and Wellness</div>
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Hormonal Imbalance" data-subtitle="Women's Hormonal Health: Balance and Wellness"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Hormonal Imbalance
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -266,10 +313,15 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">The Impact of Stress on Cancer: Strengthen Your Immune System</div>
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Stress" data-subtitle="The Impact of Stress on Cancer: Strengthen Your Immune System"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Stress
+                            </a>
+                        </div>
                     </div>
                 </div>
-
 
                 <!-- Card 7 -->
                 <div class="col-lg-3 col-md-4 col-sm-6">
@@ -286,7 +338,12 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">Lifestyle Changes for Cancer Prevention
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Cancer Prevention" data-subtitle="Cancer Prevention: Lifestyle Changes and Tips"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Cancer Prevention
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -307,7 +364,12 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">Breast Cancer Awareness and Prevention
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Breast Cancer and Prevention" data-subtitle="Breast Cancer Awareness and Prevention"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Breast Cancer
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -336,7 +398,12 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">Protect Your Vision: Eye Care Tips
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Eye Care" data-subtitle="Protect Your Vision: Eye Care Tips"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Eye Care
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -357,7 +424,12 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">The Truth About Obesity
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="The Truth About Obesity" data-subtitle="Obesity Signs and Advice for Obesity"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                The Truth About Obesity
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -377,7 +449,12 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">Blood Donation Myths vs. Facts
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Blood Donation" data-subtitle="Blood Donation Myths vs. Facts"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Blood Donation
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -398,7 +475,13 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">Mind Over Matter: Mental Health Insights                        </div>
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Mental Health Awareness" data-subtitle="Mind Over Matter: Mental Health Insights"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Mental Health Awareness
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -419,7 +502,12 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">Building Emotional Resilience
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Emotional Imbalance and Stress" data-subtitle="Building Emotional Resilience"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Emotional Imbalance and Stress
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -440,7 +528,12 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">Diabetes Prevention: Lifestyle Changes and Tips
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Awareness on Diabetes & Hypertension" data-subtitle="Diabetes Prevention: Lifestyle Changes and Tips"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Awareness on Diabetes & Hypertension
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -461,7 +554,13 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">Nurturing Mental Wellness                        </div>
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Mental & Inner Well-Being" data-subtitle="Nurturing Mental Wellness"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Mental & Inner Well-Being
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -480,7 +579,12 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">Dental Care for a Confident Smile
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Dental Care" data-subtitle="Dental Care for a Confident Smile"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Dental Care
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -501,7 +605,13 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">Child Health</div>
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Child Health" data-subtitle="Child Health and Wellness Awareness"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Child Health
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -521,7 +631,13 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">Mental Well-Being & Stress</div>
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Metal Well-Being & Stress" data-subtitle=" Mental Well-Being & Stress Awareness"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Mental Well-Being & Stress
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -541,7 +657,12 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">Psychological Approach to Stress
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Manage Stress - Psychological Approach" data-subtitle=" Psychological Approach to Stress"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Manage Stress - Psychological Approach
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -561,7 +682,13 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">Women Mental Wellness</div>
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Women Mental Wellness" data-subtitle=" Women Mental Wellness Awareness"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Women Mental Wellness
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -582,8 +709,13 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">Mind-Body Intervention from
-                            Ayurveda</div>
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Mind-Body Intervention from Ayurveda" data-subtitle=" Mind-Body Intervention from Ayurveda"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Mind-Body Intervention from Ayurveda
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -604,8 +736,13 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">Mind Diet - Boosting Mood -
-                            Nutritional Psychiatry</div>
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Nutritional Psychiatry" data-subtitle="Mind Diet - Boosting Mood - Nutritional Psychiatry"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Nutritional Psychiatry
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -627,8 +764,13 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">Know and Build Your Mental
-                            Resilience</div>
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Mental Resilience"" data-subtitle="Know and Build Your Mental Resilience"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Mental Resilience
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -648,7 +790,12 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">Understanding & Managing Sleep
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Managing Sleep"" data-subtitle="Understanding & Managing Sleep"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Managing Sleep
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -669,10 +816,15 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">Integrating Mindfulness into Daily Life: Tips and Techniques</div>
+                        <div class="fw-bold text-center mt-3" style="font-size: 16px;">
+                            <a href="#" class="info-popup" data-bs-toggle="modal" data-bs-target="#infoModal"
+                                data-title="Mindfulness Activities" data-subtitle="Integrating Mindfulness into Daily Life: Tips and Techniques"
+                                data-points="Diet and Nutrition,Exercise and Physical Activity,Stress Management,Smoking & Alcohol Effects">
+                                Mindfulness Activities
+                            </a>
+                        </div>
                     </div>
                 </div>
-
 
             </div>
         </div>
@@ -697,12 +849,15 @@
                                 class="overlay d-flex flex-column justify-content-center align-items-center text-center">
                                 <a href="#" class="p-2 px-3 rounded fw-bold text-decoration-none select-btn"
                                     style="background-color: #fff; color: #229ea6;" data-bs-toggle="modal"
-                                    data-bs-target="#bookingModal" data-event="The Science Behind Yoga: Understanding its Benefits " data-fees="3937.5">
+                                    data-bs-target="#bookingModal"
+                                    data-event="The Science Behind Yoga: Understanding its Benefits "
+                                    data-fees="3937.5">
                                     Select
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-2" style="font-size: 16px;">The Science Behind Yoga: Understanding its Benefits
+                        <div class="fw-bold text-center mt-2" style="font-size: 16px;">The Science Behind Yoga:
+                            Understanding its Benefits
                         </div>
                         <div class="fw-bold d-flex justify-content-between align-items-center mt-3">
                             <p class="text-center">Price <strike class="text-danger d-block"><span>₹6300</span></strike>
@@ -722,12 +877,14 @@
                                 class="overlay d-flex flex-column justify-content-center align-items-center text-center">
                                 <a href="#" class="p-2 px-3 rounded fw-bold text-decoration-none select-btn"
                                     style="background-color: #fff; color: #229ea6;" data-bs-toggle="modal"
-                                    data-bs-target="#bookingModal" data-event="Get Fit with Zumba: A Beginner's Guide" data-fees="4275">
+                                    data-bs-target="#bookingModal" data-event="Get Fit with Zumba: A Beginner's Guide"
+                                    data-fees="4275">
                                     Select
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-2" style="font-size: 16px;">Get Fit with Zumba: A Beginner's Guide
+                        <div class="fw-bold text-center mt-2" style="font-size: 16px;">Get Fit with Zumba: A Beginner's
+                            Guide
                         </div>
                         <div class="fw-bold d-flex justify-content-between align-items-center mt-3">
                             <p class="text-center">Price <strike class="text-danger d-block"><span>₹6840</span></strike>
@@ -747,15 +904,19 @@
                                 class="overlay d-flex flex-column justify-content-center align-items-center text-center">
                                 <a href="#" class="p-2 px-3 rounded fw-bold text-decoration-none select-btn"
                                     style="background-color: #fff; color: #229ea6;" data-bs-toggle="modal"
-                                    data-bs-target="#bookingModal" data-event="Laugh Your Way to Wellness: Benefits of Laughter Therapy" data-fees="4837">
+                                    data-bs-target="#bookingModal"
+                                    data-event="Laugh Your Way to Wellness: Benefits of Laughter Therapy"
+                                    data-fees="4837">
                                     Select
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-2" style="font-size: 16px;">Laugh Your Way to Wellness: Benefits of Laughter Therapy
+                        <div class="fw-bold text-center mt-2" style="font-size: 16px;">Laugh Your Way to Wellness:
+                            Benefits of Laughter Therapy
                         </div>
                         <div class="fw-bold d-flex justify-content-between align-items-center mt-3">
-                            <p class="text-center"> Price <strike class="text-danger d-block"><span>₹7740</span></strike>
+                            <p class="text-center"> Price <strike
+                                    class="text-danger d-block"><span>₹7740</span></strike>
                             </p>
                             <p class="text-center"> Offer price <span class="text-success d-block">₹4837</span></p>
                         </div>
@@ -769,15 +930,18 @@
                             <img src="./asset/Free-Webinar/Dietician-Consultation.jpg" alt="Avatar"
                                 class="d-block w-100 rounded" height="250px" style="object-fit: cover;">
                             <div
-                                class="overlay d-flex flex-column justify-content-center align-items-center text-center">                   
+                                class="overlay d-flex flex-column justify-content-center align-items-center text-center">
                                 <a href="#" class="p-2 px-3 rounded fw-bold text-decoration-none select-btn"
                                     style="background-color: #fff; color: #229ea6;" data-bs-toggle="modal"
-                                    data-bs-target="#bookingModal" data-event="Healthy Eating Made Easy: Tips from a Registered Dietitian" data-fees="5962">
+                                    data-bs-target="#bookingModal"
+                                    data-event="Healthy Eating Made Easy: Tips from a Registered Dietitian"
+                                    data-fees="5962">
                                     Select
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-2" style="font-size: 15px;">Healthy Eating Made Easy: Tips from a Registered Dietitian
+                        <div class="fw-bold text-center mt-2" style="font-size: 15px;">Healthy Eating Made Easy: Tips
+                            from a Registered Dietitian
                         </div>
                         <div class="fw-bold d-flex justify-content-between align-items-center mt-3">
                             <p class="text-center">Price<strike class="text-danger d-block"><span>₹ 9540</span></strike>
@@ -797,7 +961,8 @@
                                 class="overlay d-flex flex-column justify-content-center align-items-center text-center">
                                 <a href="#" class="p-2 px-3 rounded fw-bold text-decoration-none select-btn"
                                     style="background-color: #fff; color: #229ea6;" data-bs-toggle="modal"
-                                    data-bs-target="#bookingModal" data-event="Healthy Living: Expert Insights" data-fees="5962">
+                                    data-bs-target="#bookingModal" data-event="Healthy Living: Expert Insights"
+                                    data-fees="5962">
                                     Select
                                 </a>
                             </div>
@@ -822,12 +987,14 @@
                                 class="overlay d-flex flex-column justify-content-center align-items-center text-center">
                                 <a href="#" class="p-2 px-3 rounded fw-bold text-decoration-none select-btn"
                                     style="background-color: #fff; color: #229ea6;" data-bs-toggle="modal"
-                                    data-bs-target="#bookingModal" data-event="Building Stronger Teams: Strategies for Success" data-fees="7087">
+                                    data-bs-target="#bookingModal"
+                                    data-event="Building Stronger Teams: Strategies for Success" data-fees="7087">
                                     Select
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-2" style="font-size: 16px;">Building Stronger Teams: Strategies for Success
+                        <div class="fw-bold text-center mt-2" style="font-size: 16px;">Building Stronger Teams:
+                            Strategies for Success
                         </div>
                         <div class="fw-bold d-flex justify-content-between align-items-center mt-3">
                             <p class="text-center">Price<strike class="text-danger d-block"><span>₹
@@ -910,7 +1077,7 @@
                         <div class="fw-bold text-center mt-2" style="font-size: 16px;">Medication &
                             Relaxation
                         </div>
-                        <div class="fw-bold d-flex justify-content-between align-items-center mt-3">                            
+                        <div class="fw-bold d-flex justify-content-between align-items-center mt-3">
                             <p class="text-center">Price<strike class="text-danger d-block"><span>₹ 6300</span></strike>
                             </p>
                             <p class="text-center">Offer price<span class="text-success d-block">₹ 3937</span></p>
@@ -928,12 +1095,14 @@
                                 class="overlay d-flex flex-column justify-content-center align-items-center text-center">
                                 <a href="#" class="p-2 px-3 rounded fw-bold text-decoration-none select-btn"
                                     style="background-color: #fff; color: #229ea6;" data-bs-toggle="modal"
-                                    data-bs-target="#bookingModal" data-event="Get Moving: Fitness Routines for All Levels" data-fees="5400">
+                                    data-bs-target="#bookingModal"
+                                    data-event="Get Moving: Fitness Routines for All Levels" data-fees="5400">
                                     Select
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-2" style="font-size: 16px;">Get Moving: Fitness Routines for All Levels
+                        <div class="fw-bold text-center mt-2" style="font-size: 16px;">Get Moving: Fitness Routines for
+                            All Levels
                         </div>
                         <div class="fw-bold d-flex justify-content-between align-items-center mt-3">
                             <p class="text-center">Price<strike class="text-danger d-block"><span>₹ 8640</span></strike>
@@ -979,12 +1148,14 @@
                                 class="overlay d-flex flex-column justify-content-center align-items-center text-center">
                                 <a href="#" class="p-2 px-3 rounded fw-bold text-decoration-none select-btn"
                                     style="background-color: #fff; color: #229ea6;" data-bs-toggle="modal"
-                                    data-bs-target="#bookingModal" data-event="Comfort and Productivity: Ergonomic Design Principles" data-fees="3712">
+                                    data-bs-target="#bookingModal"
+                                    data-event="Comfort and Productivity: Ergonomic Design Principles" data-fees="3712">
                                     Select
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-2" style="font-size: 16px;">Comfort and Productivity: Ergonomic Design Principles
+                        <div class="fw-bold text-center mt-2" style="font-size: 16px;">Comfort and Productivity:
+                            Ergonomic Design Principles
                         </div>
                         <div class="fw-bold d-flex justify-content-between align-items-center mt-3">
                             <p class="text-center">Price<strike class="text-danger d-block"><span>₹ 5940</span></strike>
@@ -1004,12 +1175,14 @@
                                 class="overlay d-flex flex-column justify-content-center align-items-center text-center">
                                 <a href="#" class="p-2 px-3 rounded fw-bold text-decoration-none select-btn"
                                     style="background-color: #fff; color: #229ea6;" data-bs-toggle="modal"
-                                    data-bs-target="#bookingModal" data-event="Step Up Your Fitness: Aerobics for All Levels" data-fees="4275">
+                                    data-bs-target="#bookingModal"
+                                    data-event="Step Up Your Fitness: Aerobics for All Levels" data-fees="4275">
                                     Select
                                 </a>
                             </div>
                         </div>
-                        <div class="fw-bold text-center mt-2" style="font-size: 16px;">Step Up Your Fitness: Aerobics for All Levels
+                        <div class="fw-bold text-center mt-2" style="font-size: 16px;">Step Up Your Fitness:
+                            Aerobics for All Levels
                         </div>
                         <div class="fw-bold d-flex justify-content-between align-items-center mt-3">
                             <p class="text-center">Price<strike class="text-danger d-block"><span>₹ 6840</span></strike>
@@ -1139,6 +1312,25 @@
 
 
     <script>
+        document.querySelectorAll('.info-popup').forEach(link => {
+            link.addEventListener('click', function () {
+                const title = this.dataset.title;
+                const subtitle = this.dataset.subtitle;
+                const points = this.dataset.points.split(',');
+
+                document.getElementById('infoModalTitle').textContent = title;
+                document.getElementById('infoModalSubtitle').textContent = subtitle;
+
+                // const listContainer = document.getElementById('infoModalPoints');
+                listContainer.innerHTML = '';
+                points.forEach(point => {
+                    const li = document.createElement('li');
+                    li.textContent = point.trim();
+                    listContainer.appendChild(li);
+                });
+            });
+        });
+
         $(document).ready(function () {
             $('.toggle-btn').click(function () {
                 $('.sidebar').css('margin-left', '0');
@@ -1164,6 +1356,7 @@
             });
         });
     </script>
-    
+
 </body>
+
 </html>
